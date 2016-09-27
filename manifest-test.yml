@@ -1,0 +1,9 @@
+---
+applications:
+- name: FY17_Q2
+  memory: 1024M
+  instances: 1
+  host: jsfy17_q2
+  path: ./build/libs/fy-17-q-2-0.0.1-SNAPSHOT.war
+  services:
+   - jsFY17_Q1_DB
